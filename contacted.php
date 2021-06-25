@@ -11,9 +11,9 @@ require 'header.php';
 
     <?php 
     if(isset($_POST['message'])) {
-        $headers[] = "MIME-Version: 1.0";
-        $headers[] = "Content-type: text/html; charset=iso-8859-1";
-        $headers[] = 'From: ' . $_POST['mail'] . "\r\n";
+        $headers = "MIME-Version: 1.0";
+        $headers = "Content-type: text/html; charset=iso-8859-1";
+        $headers = 'From: ' . $_POST['mail'] . "\r\n";
 
         $message = '<h1>Nouveau message !</h1>
         <p><b>Nom : </b>' . $_POST['name'] . '<br>
