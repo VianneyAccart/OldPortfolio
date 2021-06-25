@@ -442,6 +442,13 @@ h1 {
   color: green;
   font-weight: 400;
 }
+.contact-form-fail {
+  margin: 20px 0 100px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+  font-weight: 400;
+}
 
 .contact h2, .contact p {
   width : 100%;
@@ -771,6 +778,14 @@ footer a {
     text-align: center;
     font-size: 1.2rem;
     color: green;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+  .contact-form-fail {
+    margin: 20px 0 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
     font-weight: 400;
     padding: 0 20px;
   }

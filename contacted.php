@@ -11,19 +11,21 @@ require 'header.php';
 
     <?php 
     if(isset($_POST['message'])) {
-        $entete  = 'MIME-Version: 1.0' . "\r\n";
-        $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $entete .= 'From: ' . $_POST['mail'] . "\r\n";
+        $headers[] = "MIME-Version: 1.0";
+        $headers[] = "Content-type: text/html; charset=iso-8859-1";
+        $headers[] = 'From: ' . $_POST['mail'] . "\r\n";
 
-        $message = '<h1>Message envoyé depuis la page Contact de vianneyaccart.fr</h1>
+        $message = '<h1>Nouveau message !</h1>
         <p><b>Nom : </b>' . $_POST['name'] . '<br>
         <b>Email : </b>' . $_POST['mail'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
-        $retour = mail('vianneyaccart@gmail.com', 'Nouveau message depuis vianneyaccart.fr', $message, $entete);
+        $retour = mail('vianneyaccart@gmail.com', 'Nouveau message !', $message, $headers);
         
         if($retour) {
             echo '<p class="contact-form">Merci pour votre message, il a bien été envoyé. Je vous recontacte dans les plus brefs délais.</p>';
+        } else {
+            echo '<p class="contact-form-fail">Une erreur est survenue, veuillez réessayer...</p>';
         }
     }
     ?>
