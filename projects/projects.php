@@ -12,6 +12,7 @@
     require 'projects/project_adeir.php';
     require 'projects/project_serwan.php';
     require 'projects/project_ebdmr.php';
+    require 'projects/project_mariage.php';
     ?>
 </div>
 </section>
