@@ -24,10 +24,10 @@
                     <p>Je suis en veille permanente et m'intéresse aux évolutions des langages.</p>
                     <p class="competences-title-list">Langages et CMS</p>
                     <ul>
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>PHP 8</li>
+                        <li>HTML / CSS</li>
                         <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>PHP</li>
                         <li>Wordpress</li>
                     </ul>
                 </div>

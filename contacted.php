@@ -6,7 +6,7 @@ require 'header.php';
 <section class="contacted" id="contact">
     <div class="section-title-contacted">
         <h2>Discutons ensemble</h2>
-        <p>Vous avez un projet ? Des suggestions ? N'hésitez pas à me contacter.</p>
+        <p>Vous avez un projet ? N'hésitez pas à me contacter.</p>
     </div>
 
     <?php 

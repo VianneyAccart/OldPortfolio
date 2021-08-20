@@ -1,7 +1,7 @@
 <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="http://localhost:8000/mentions-legales.php">Mentions Légales</a>
+                <a href="https://vianneyaccart.com/mentions-legales.php">Mentions Légales</a>
             </div>
             
             <div class="social-medias-container">

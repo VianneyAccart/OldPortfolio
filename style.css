@@ -390,35 +390,42 @@ h1 {
 }
 
 #project1 {
-  background: url(img/prune-manciet.png);
+  background: url(img/prune-manciet.webp);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #project2 {
-  background: url(img/logo-esprit-body.png);
+  background: url(img/logo-esprit-body.webp);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #project3 {
-  background: url(img/logo-adeir.png);
+  background: url(img/logo-adeir.webp);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #project4 {
-  background: url(img/logo-serwan-messe.png);
+  background: url(img/logo-serwan-messe.webp);
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #project5 {
-  background: url(img/logo-enbasdemarue.png);
+  background: url(img/logo-enbasdemarue.webp);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#project6 {
+  background: url(img/mariage-matthieu-pauline.webp);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
