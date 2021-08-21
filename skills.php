@@ -9,7 +9,7 @@
                     <i class="bi bi-people"></i>
                     <h3>Soft Skills</h3>
                     <p>Ils sont au coeur du métier. J'accorde beaucoup de temps à leur développement.</p>
-                    <p class="competences-title-list">Ce qui me caractérise</p>
+                    <h4>Ce qui me caractérise</h4>
                     <ul>
                         <li>Orienté solution</li>
                         <li>Esprit d'équipe</li>
@@ -22,7 +22,7 @@
                     <i class="bi bi-pencil"></i>
                     <h3>Hard Skills</h3>
                     <p>Je suis en veille permanente et m'intéresse aux évolutions des langages.</p>
-                    <p class="competences-title-list">Langages et CMS</p>
+                    <h4>Langages et CMS</h4>
                     <ul>
                         <li>HTML / CSS</li>
                         <li>JavaScript</li>
@@ -35,7 +35,7 @@
                     <i class="bi bi-tools"></i>
                     <h3>Outils</h3>
                     <p>Ils m'aident à être beaucoup plus efficace dans toutes les phases de mes projets. </p>
-                    <p class="competences-title-list">Ma boîte à outils</p>
+                    <h4>Ma boîte à outils</h4>
                     <ul>
                         <li>Balsamiq Wireframes</li>
                         <li>Visual Studio Code</li>
