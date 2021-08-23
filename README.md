@@ -1,3 +1,3 @@
-# portfolio.php
+# Portfolio
 
-Je fais évoluer mon portfolio, créé initialement en HTML et CSS uniquement, en y ajoutant une couche de PHP pour dynamiser mon code.
+Découvrez mon portfolio réalisé en HTML, CSS, JavaScript et PHP.
