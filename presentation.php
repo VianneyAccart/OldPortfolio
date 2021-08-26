@@ -1,3 +1,0 @@
-<section class="presentation" id="presentation">
-    <p>Passionné par l'informatique depuis de nombreuses années, c'est après avoir réalisé plusieurs projets pour des amis et par plaisir que j'ai décidé de faire du développement web mon métier. Aujourd'hui, je me spécialise sur la composante back-end tout en ayant de bonnes notions en front-end. J'apprécie imaginer et créer des projets en partant de zéro. Curieux, appliqué et persévérant, j'oeuvre pour réaliser des sites élégants, performants et à votre image.</p>
-</section>
