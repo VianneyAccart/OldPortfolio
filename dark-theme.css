@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 body {
@@ -8,22 +7,42 @@ body {
   font-size: 1.1rem;
   font-weight: 200;
   margin: auto;
-  min-height: 100%;
-  position: relative;
   background-color: #202124;
+  color: whitesmoke;
 }
 
 li {
   list-style-type: none;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: whitesmoke;
+  margin: auto;
+}
+
 h2 {
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: whitesmoke;
+}
+
+h4 {
+  color: #E9B44C;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 /* header */
 
- .header {
+header {
   background-color: #303134;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
@@ -32,44 +51,36 @@ h2 {
   top: 0;
 }
 
-.header ul {
+header ul {
   padding: 0;
   list-style: none;
   overflow: hidden;
   background-color: #303134;
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
 }
 
-.header li a {
+header li a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
   color: whitesmoke;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
+header li a:hover,
+header .menu-btn:hover {
   color:#E9B44C;
 }
 
-.header img {
-  float: left;
+header img {
   padding: 5px 20px 0px 20px;
   height: 80px;
-  width: 80px;
-}
-
-/* header menu */
-
-.header .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height .2s ease-out;
-  justify-content: flex-end;
 }
 
 /* menu icon burger */
 
-.header .menu-icon {
+header .menu-icon {
   cursor: pointer;
   float: right;
   padding: 28px 20px;
@@ -78,7 +89,7 @@ h2 {
   margin: 25px 30px;
 }
 
-.header .menu-icon .navicon {
+header .menu-icon .navicon {
   background: whitesmoke;
   display: block;
   height: 2px;
@@ -87,8 +98,8 @@ h2 {
   width: 25px;
 }
 
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
+header .menu-icon .navicon:before,
+header .menu-icon .navicon:after {
   background: whitesmoke;
   content: '';
   display: block;
@@ -98,38 +109,38 @@ h2 {
   width: 100%;
 }
 
-.header .menu-icon .navicon:before {
+header .menu-icon .navicon:before {
   top: 7px;
 }
 
-.header .menu-icon .navicon:after {
+header .menu-icon .navicon:after {
   top: -7px;
 }
 
 /* menu button */
 
-.header .menu-btn {
+header .menu-btn {
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+header .menu-btn:checked ~ .menu {
   max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -138,7 +149,7 @@ h2 {
 .site-title {
   padding-top: 100px;
   display: flex;
-  height: 86vh;
+  height: 87vh;
   background-color: #202124;
 }
 
@@ -146,11 +157,6 @@ h2 {
   margin: auto;
   padding: 80px;
   width: 35%;
-}
-
-h1 {
-  margin: auto;
-  color: whitesmoke;
 }
 
 .title-cta a {
@@ -184,21 +190,12 @@ h1 {
   width: 65%;
 }
 
-.site-title h1 {
-  font-size: 3rem;
-  font-weight: 300;
-}
-
 /* Presentation */
 
 .presentation {
   background-color: #303134;
   height: auto;
   padding: 250px 200px 200px;
-}
-
-.presentation-title {
-  color: whitesmoke;
 }
 
 .presentation p {
@@ -208,11 +205,6 @@ h1 {
 }
 
 /* Competences */
-
-.competences h2 {
-  color: whitesmoke;
-  font-weight: 300;
-}
 
 .competences-container {
   display: flex;
@@ -231,19 +223,10 @@ h1 {
 
 .competences p {
   margin: 50px 0 40px 0;
-  color: whitesmoke;
-}
-
-.competences h4 {
-  color: #E9B44C;
-  font-weight: 400;
-  margin-bottom: 50px;
 }
 
 .competences ul {
-  margin-top: -20px;
-  padding: 0;
-  color: whitesmoke;
+  padding: initial;
 }
 
 .competences-column {
@@ -254,12 +237,6 @@ h1 {
 .competences-column i {
   font-size: 2.5rem;
   color:#E9B44C;
-}
-
-.competences h3 {
-  font-weight: 300;
-  font-size: 1.3rem;
-  color: whitesmoke;
 }
 
 .cv {
@@ -299,13 +276,10 @@ h1 {
   padding: 200px 0 100px;
   text-align: center;
 }
+
 .section-title-contacted {
   padding: 50px 20px;
   text-align: center;
-}
-
-.section-title-contacted p{
-  color: whitesmoke;
 }
 
 .section-title-presentation {
@@ -318,10 +292,6 @@ h1 {
 .realisations {
   margin: 150px 0 100px 0;
   border-top: 1px solid #303134;
-}
-
-.realisations p, h2 {
-  color: whitesmoke;
 }
 
 .realisations-container {
@@ -461,11 +431,15 @@ h1 {
   margin: 100px 0;
 }
 
+.contact {
+  margin: 100px 0;
+}
+
 .contact-form {
   margin: 20px 0 100px;
   text-align: center;
   font-size: 1.2rem;
-  color: green;
+  color: green !important;
   font-weight: 300;
 }
 .contact-form-fail {
@@ -501,13 +475,13 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0.75rem;
+  padding: 10px;
 }
 
 .message-container {
   display: flex;
   flex-direction: column;
-  padding: 0.75rem;
+  padding: 10px;
 }
 
 .label {
@@ -614,14 +588,7 @@ footer a {
   margin: auto;
 }
 
-.mentions-legales h1 {
-  color: whitesmoke;
-  font-weight: 300;
-}
-
 .mentions-legales h2 {
-  font-size: 1.2rem;
-  font-weight: 300;
   padding: 30px 0 20px;
   color: #E9B44C;
 }
@@ -649,18 +616,18 @@ footer a {
 /* Responsive design header */
 
 @media (min-width: 768px) {
-  .header li {
+  header li {
     float: left;
   }
-  .header li a {
+  header li a {
     padding: 20px 30px;
   }
-  .header .menu {
+  header ul {
     clear: none;
     float: right;
     max-height: none;
   }
-  .header .menu-icon {
+  header .menu-icon {
     display: none;
   }
 }
@@ -670,8 +637,8 @@ footer a {
     width: 50%;
     background-size: contain;
   }
-  .site-title h1 {
-    font-size: 1.8rem;
+  h1 {
+    font-size: 2rem;
   }
   .site-title {
     height: auto;
@@ -694,7 +661,7 @@ footer a {
   .site-title {
     height: auto;
   }
-  .site-title h1 {
+  h1 {
     font-size: 2rem;
     margin: 0 10px 20px 10px;
   }
@@ -709,9 +676,6 @@ footer a {
     width: 100%;
     margin: 50px 0;
     padding: 80px 10px 50px 20px;
-  }
-  .title-container h1 {
-    font-size: 1.8rem;
   }
   .title-image {
     display: none;
@@ -733,16 +697,11 @@ footer a {
   .competences {
     margin-top: 20px;
   }
-  .competences ul {
-    margin: 0;
-    padding: 0;
-  }
   .competences-container {
     width: 85%;
     padding: 0;
   }
   .competences-container h2 {
-    font-size: 1.5rem;
     margin: 50px 0;
   }
   .competences-column {
@@ -752,7 +711,7 @@ footer a {
   .competences-column:last-child {
     margin-bottom: 50px;
   }
-  .competences-column h3 {
+  h3 {
     margin: 10px 0;
   }
   .competences-column p {
@@ -767,9 +726,6 @@ footer a {
   .cv a {
     margin-top: 40px;
     max-width: 90%;
-  }
-  .realisations h2 {
-    font-size: 1.5rem;
   }
   .switch {
     display: block;

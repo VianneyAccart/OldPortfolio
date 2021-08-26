@@ -1,5 +1,5 @@
 <?php 
-$title = "Message envoyé ! Vianney Accart, Développeur Web Back-End";
+$title = "Merci pour votre message !";
 require 'header.php';
 ?>
 
