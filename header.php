@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title><?= $title ?></title>
-    <meta name="description" content="Vianney Accart, développeur web, mobile et WordPress à Lyon. Découvrez mon parcours, mes compétences, mes réalisations et contactez-moi !"/>
+    <meta name="description" content="Vianney Accart, développeur web, mobile et WordPress à Lyon. Découvrez mon parcours, mes compétences, et mes réalisations."/>
     <link rel="shortcut icon" type="image/png" href="img/favicon-vianney-accart.png"/>
     <link rel="stylesheet" href="light-theme.css" id="theme-link">
     <link rel="preconnect" href="https://fonts.gstatic.com">

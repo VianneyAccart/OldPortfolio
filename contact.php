@@ -9,7 +9,7 @@
                 <div class="name-mail">
                     <div class="name-container">
                         <label class="label" for="name">Nom<span class="requiredField">*</span></label>
-                        <input type="text" name="name" id="name" required>
+                        <input type="text" title="Au moins 2 caractères" name="name" id="name" minlength="2" required>
                     </div>
                     <div class="email-container">
                         <label class="label" for="mail">Email<span class="requiredField">*</span></label>
