@@ -12,7 +12,7 @@ btn.addEventListener("click", function() {
     document.getElementById("link-toggle").className = "bi bi-moon";
   }
 });
-
+// Mémorisation du choix de mode dans le localStorage
 if(localStorage.getItem("theme") == "dark"){
   theme.href = "dark-theme.css";
   document.getElementById("link-toggle").className = "bi bi-brightness-high";
