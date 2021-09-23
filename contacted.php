@@ -15,12 +15,12 @@ require 'header.php';
         $headers = "Content-type: text/html; charset=iso-8859-1";
         $headers = 'From: ' . $_POST['mail'] . "\r\n";
 
-        $message = '<h1>Nouveau message !</h1>
-        <p><b>Nom : </b>' . $_POST['name'] . '<br>
-        <b>Email : </b>' . $_POST['mail'] . '<br>
-        <b>Message : </b>' . $_POST['message'] . '</p>';
+        $message = 'Nouveau message !
+        Nom : ' . $_POST['name'] . '
+        Email : ' . $_POST['mail'] . '
+        Message : ' . $_POST['message'] . '';
 
-        $retour = mail('vianneyaccart@gmail.com', 'Nouveau message !', $message, $headers);
+        $retour = mail('vianneyaccart@gmail.com', 'Nouveau message', $message, $headers);
         
         if($retour) {
             echo '<p class="contact-form">Merci pour votre message, il a bien été envoyé. Je vous recontacte dans les plus brefs délais.</p>';
