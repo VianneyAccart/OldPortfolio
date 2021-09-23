@@ -5,7 +5,7 @@ require 'header.php'; ?>
 
 <section class="site-title">
     <div class="title-container">
-        <h1>Vianney Accart</br>Développeur Web</br>et Mobile à Lyon</h1>
+        <h1>Vianney Accart</br> Développeur Web</br> et Mobile à Lyon</h1>
         <div class="title-cta">
             <a href="https://vianneyaccart.com/#presentation"><span>Qui suis-je ?</span></a>
         </div>
