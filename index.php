@@ -31,6 +31,7 @@ require 'header.php'; ?>
                 <h4>Ce qui me caractérise</h4>
                 <ul>
                     <li>Orienté solution</li>
+                    <li>Gestion du stress</li>
                     <li>Esprit d'équipe</li>
                     <li>Persévérance</li>
                     <li>Autonomie</li>
@@ -41,13 +42,14 @@ require 'header.php'; ?>
                 <i class="bi bi-pencil"></i>
                 <h3>Hard Skills</h3>
                 <p>Je suis en veille permanente et m'intéresse aux évolutions des langages.</p>
-                <h4>Langages et CMS</h4>
+                <h4>Langages, CMS & OS</h4>
                 <ul>
-                    <li>HTML / CSS</li>
-                    <li>JavaScript</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                    <li>Wordpress</li>
+                    <li>HTML, CSS, Javascript, Bootstrap</li>
+                    <li>TypeScript, Angular</li>
+                    <li>Java, JEE, Spring</li>
+                    <li>API REST, Webkit, Sass</li>
+                    <li>Wordpress, WooCommerce</li>
+                    <li>Windows, Linux, MacOS</li>
                 </ul>
             </div>
             <div class="competences-column">
@@ -56,11 +58,12 @@ require 'header.php'; ?>
                 <p>Ils m'aident à être beaucoup plus efficace dans toutes les phases de mes projets. </p>
                 <h4>Ma boîte à outils</h4>
                 <ul>
-                    <li>Balsamiq Wireframes</li>
                     <li>Visual Studio Code</li>
-                    <li>Boostrap</li>
-                    <li>GitHub</li>
-                    <li>Git</li>
+                    <li>Eclipse</li>
+                    <li>Git & GitHub</li>
+                    <li>JPA</li>
+                    <li>MySQL</li>
+                    <li>Balsamiq Wireframes</li>
                 </ul>
             </div>
         </div>
