@@ -14,7 +14,7 @@ require 'header.php'; ?>
 </section>
 
 <section class="presentation" id="presentation">
-    <p>Passionné par l'informatique depuis de nombreuses années, c'est après avoir réalisé plusieurs projets pour des amis et par plaisir que j'ai décidé de faire du développement web mon métier. Aujourd'hui, je me spécialise sur la composante back-end tout en ayant de bonnes notions en front-end. J'apprécie imaginer et créer des projets en partant de zéro. Curieux, appliqué et persévérant, j'oeuvre pour réaliser des sites élégants, performants et à votre image.</p>
+    <p>Curiosité, autonomie, dynamisme et travail d'équipe : voilà ce qui me caractérise ! En tant que développeur web full-stack, je créé des solutions qui répondent à vos besoins. Je suis spécialisé sur le langage Java et sur le framework Angular. J'utilise d'autres langages tels que JavaScript, PHP ainsi que le CMS WordPress. J'ai également des connaissances en SEO. Je suis prêt à travailler d'autres langages/CMS selon la nature des projets qui me seront confiés. Mon aisance relationnelle et ma capacité d'adaptation me permettent de m'intégrer facilement au sein d'une équipe et d'être opérationnel rapidement.</p>
 </section>
 
 <section class="competences" id="competences">
