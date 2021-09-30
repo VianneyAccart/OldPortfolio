@@ -14,7 +14,7 @@ require 'header.php'; ?>
 </section>
 
 <section class="presentation" id="presentation">
-    <p>Curiosité, autonomie, dynamisme et travail d'équipe : voilà ce qui me caractérise ! En tant que développeur web full-stack, je créé des solutions qui répondent à vos besoins. Je suis spécialisé sur le langage Java et sur le framework Angular. J'utilise d'autres langages tels que JavaScript, PHP ainsi que le CMS WordPress. J'ai également des connaissances en SEO. Je suis prêt à travailler d'autres langages/CMS selon la nature des projets qui me seront confiés. Mon aisance relationnelle et ma capacité d'adaptation me permettent de m'intégrer facilement au sein d'une équipe et d'être opérationnel rapidement.</p>
+    <p>Curiosité, autonomie, dynamisme et travail d'équipe : voilà ce qui me caractérise ! En tant que développeur web full-stack, je créé des solutions qui répondent à vos besoins. Je suis spécialisé sur le langage Java et sur le framework Angular. J'utilise d'autres langages tels que JavaScript, PHP ainsi que le CMS WordPress. J'ai également des connaissances en SEO. Je suis prêt à travailler d'autres langages/CMS selon la nature des projets qui me seront confiés.</p>
 </section>
 
 <section class="competences" id="competences">
