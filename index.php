@@ -83,6 +83,7 @@ require 'header.php'; ?>
 
 <div class="realisations-container">
     <?php 
+    require 'projects/project_rockquest.php';
     require 'projects/project_prune.php';
     require 'projects/project_quentin.php';
     require 'projects/project_adeir.php';

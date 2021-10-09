@@ -2,6 +2,6 @@
         <div class="project-logo" id="<?= $project_id ?>"></div>
         <div class="project-details">
             <p><?= $project_text ?></p>
-            <a href="<?= $project_link ?>" target="_blank"><span>Découvrir</span></a>
+            <a href="<?= $project_link ?>" target="_blank" rel="noopener"><span>Découvrir</span></a>
         </div>
     </div>

@@ -415,6 +415,13 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   background-position: center;
 }
 
+#project7 {
+  background: url(img/logo-rock-quest.webp);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Contact */
 
 .contact {
